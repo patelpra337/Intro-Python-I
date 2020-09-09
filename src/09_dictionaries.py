@@ -54,4 +54,5 @@ for waypoint in waypoints:
     for key in waypoint:
         print(waypoint[key])
 
-
+for key, values in waypoint.items():
+    print(key, values)
